@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cats</title>
+</head>
+<body>
+
+<h1>Train on cats!</h1>
+
+{% for cat in cats %}
+    <div class="card mb-3">{{ cat.name }}</div>
+{% endfor %}
+
+</body>
+</html>
