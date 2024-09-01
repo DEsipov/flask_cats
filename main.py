@@ -12,7 +12,7 @@ from settings import Config
 
 app.config.from_object(Config)
 
-# app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///db.sqlite3'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///db.sqlite3'
 db = SQLAlchemy(app)
 migrate = Migrate(app, db)
 

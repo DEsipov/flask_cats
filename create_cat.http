@@ -1,0 +1,9 @@
+### GET стадо котов
+GET http://127.0.0.1:5000/cats/
+
+### POST cat (создать кота)
+POST http://127.0.0.1:5000/cats/
+Content-Type: application/json
+
+{"name":  "Barksik"}
+
